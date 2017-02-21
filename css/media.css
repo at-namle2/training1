@@ -1,0 +1,52 @@
+/* Mobile */
+
+/*.nav {
+    height: 30px;
+}
+.nav ul li a {
+    display: none;
+}
+.container {
+    min-width: 100%;
+    height: auto;
+    padding: 0;
+}
+.silde > img {
+    width: 100%;
+    height: auto;
+}
+#content-aside {
+    min-width: 100%;
+    height: auto;
+}*/
+/* Tablet */
+
+@media screen and (max-width: 480px) {
+
+    .nav {
+        height: 76px;
+    }
+    .nav img {
+        margin-top: 10px;
+    }
+    .nav ul li a {
+        display: inline-block;
+        font-size: 11px;
+        color: #43fdfd;
+    }
+
+    #container {
+      width: 100%;
+    }
+  
+    .aside p {
+      font-size: 13px;
+    }
+
+
+}
+/* Larger screen */
+/*
+1200
+768
+480*/

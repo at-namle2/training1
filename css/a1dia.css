@@ -1,0 +1,1068 @@
+/* Mobile */
+
+.nav {
+    height: 30px;
+}
+.nav ul li a {
+    display: none;
+}
+.container {
+    min-width: 100%;
+    height: auto;
+    padding: 0;
+}
+.silde > img {
+    width: 100%;
+    height: auto;
+}
+#content-aside {
+    min-width: 100%;
+    height: auto;
+}
+/* Tablet */
+
+@media screen and (max-width: 480px) {
+    .nav {
+        height: 76px;
+    }
+    .nav img {
+        margin-top: 10px;
+    }
+    .nav ul li a {
+        display: inline-block;
+        font-size: 11px;
+        color: #43fdfd;
+    }
+    .silde > img {
+        width: 100%;
+        height: auto;
+    }
+    .container > h2 {
+        text-align: center;
+        font-size: 15px;
+    }
+    #introduce {
+        position: relative;
+        left: -37%;
+    }
+    #content-aside {
+        width: 100%;
+        height: auto;
+    }
+    .aside {
+        width: 50%;
+    }
+    .aside p {
+        font-size: 13px;
+        line-height: 15px;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+    .figure {
+        width: 50%;
+    }
+    .figure figure img {
+        max-width: 100%;
+    }
+    .ad {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    .ad figure img {
+        max-width: 100%;
+    }
+    .ad > a {
+        font-size: 13px;
+    }
+    .add {
+        background-color: #000;
+    }
+    .ad1 {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    .ad1 figure img {
+        max-width: 100%;
+    }
+    .ad1 > a {
+        font-size: 13px;
+    }
+    .news-home {
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .ner{
+        width: 100%;
+        background-color: #000;
+        
+    }
+    .home-price {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    .home-price img {
+        width: 100%;
+    }
+    .home-price .content-price h3 {
+        text-transform: uppercase;
+        font-size: 12px;
+        text-align: center;
+    }
+    .home-price .content-price p {
+        font-size: 12px;
+        text-align: center;
+        color: #ed1d24;
+    }
+    .news-left {
+        width: 100%;
+    }
+    .news-right {
+        width: 100%;
+    }
+    .news-home .news-left img {
+        width: 100%;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding: 30px 0 0 0;
+    }
+    .row-include {
+        width: 100%;
+    }
+   
+    
+    #tene1 a {
+        text-decoration: none;
+        margin: 0;
+        background-color: #838383;
+        float: left;
+        color: #fff;
+        border-radius: 50%;
+        padding: 4px 8px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+
+
+
+        #mapdiv .box > h2 {
+            position: absolute;
+            font-size: 15px;
+            top: 217px;
+            left: 115px;
+            text-transform: uppercase;
+            transform: rotate(-51deg);
+            -webkit-transform: rotate(-51deg);
+            -ms-transform: rotate(-51deg);
+            -moz-transform: rotate(-51deg);
+        }
+
+
+
+
+
+}
+/* Larger screen */
+/*
+1200
+768
+480*/
+
+@media screen and (min-width: 767px) {
+    /*#############phan chung css#################*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: "Times New Roman", Times, serif;
+    }
+    img {
+        font-size: 0;
+    }
+    .responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    /*#########header in css#########*/
+    /*header css nav */
+    
+    .silde img {
+        width: 100%;
+        height: auto;
+    }
+    .nav {
+        list-style: none;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .nav li {
+        display: inline;
+    }
+    .nav a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        display: inline-block;
+        margin: 0 7px;
+        text-transform: uppercase;
+        padding: 5px 12px;
+        color: #fff;
+    }
+    .nav ul li a {
+        display: inline-block;
+    }
+    .wrap {
+        background-color: #000;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .nav img {
+        float: left;
+    }
+    .nav li a {
+        margin:
+    }
+    .nav ul li a:hover {
+        border-bottom: 1px solid #fff;
+    }
+    /*#########section in css#########*/
+    /*css gioi thieu*/
+    /*section in css*/
+    
+    .page-content {
+        width: 1354px;
+        height: 1600px;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 25px;
+    }
+    .img-center {
+        text-align: center;
+    }
+    /*introduce in css*/
+    
+    #introduce {
+        float: right;
+        position: relative;
+        left: -50%;
+        text-align: left;
+    }
+    #introduce ul {
+        list-style: none;
+        position: relative;
+        left: 50%;
+    }
+    #introduce li {
+        float: left;
+        position: relative;
+        background-color: #000;
+    }
+    #introduce li a {
+        text-decoration: none;
+        border: 1px solid #fff;
+        margin: 0;
+        float: left;
+        color: #fff;
+        padding: 8px 8px;
+        text-align: center;
+        white-space: nowrap;
+        text-transform: uppercase;
+    }
+    #introduce li:before {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+        border-top-color: #000;
+        bottom: -20px;
+        left: 50%;
+        margin-left: -5px;
+        display: none;
+    }
+    #introduce li:first-child:before {
+        display: block;
+    }
+    #introduce ul li a:hover {
+        background-color: #fff;
+        color: #000;
+        cursor: hand;
+    }
+    /*end css introduce*/
+    /*introduce in css*/
+    
+    #introduce1 {
+        float: right;
+        position: relative;
+        left: -50%;
+        text-align: left;
+    }
+    #introduce1 ul {
+        list-style: none;
+        position: relative;
+        left: 50%;
+    }
+    #introduce1 li {
+        float: left;
+        position: relative;
+        background-color: #808080;
+    }
+    #introduce1 li a {
+        text-decoration: none;
+        margin: 0;
+        float: left;
+        border: 2px outset #fff;
+        color: #fff;
+        padding: 2px 5px;
+        text-align: center;
+        white-space: nowrap;
+        text-transform: uppercase;
+    }
+    #introduce1 li:before {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+        border-top-color: #ccc;
+        bottom: -20px;
+        left: 50%;
+        margin-left: -5px;
+        display: none;
+    }
+    #introduce1 li:first-child:before {
+        display: block;
+    }
+    #introduce1 ul li a:hover {
+        background-color: #000;
+        color: #fff;
+        cursor: hand;
+    }
+    /*end css introduce*/
+    /*#########section of cac muc ke tiep in css########*/
+    
+    .button-content ul li a {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    #buttons {
+        float: right;
+        position: relative;
+        left: -50%;
+        text-align: left;
+    }
+    #buttons ul {
+        list-style: none;
+        position: relative;
+        left: 50%;
+    }
+    #buttons li {
+        float: left;
+        position: relative;
+    }
+    #buttons a {
+        text-decoration: none;
+        margin: 0;
+        background-color: #808080;
+        float: left;
+        color: #fff;
+        padding: 2px 5px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    /*#####CSS gioit hieu#####*/
+    
+    #content-aside {
+        width: 1170px;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .aside {
+        float: left;
+        width: 50%;
+    }
+    .aside p {
+        font-size: 14px;
+        line-height: 17px;
+        word-wrap: break-word;
+    }
+    .figure {
+        float: right;
+    }
+    .figure img {
+        height: 400px;
+    }
+    /*custum in css*/
+    /*#if {
+    background-color: #000;
+    height: 100%;
+}*/
+    
+    .ad {
+        width: 1170px;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    .ad > a {
+        font-size: 16px;
+        overflow: hidden;
+        display: inline-block;
+        margin-bottom: 8px;
+        width: calc(50% - 4px);
+        margin-right: 8px;
+        text-decoration: none;
+        color: #fff;
+    }
+    .ad {
+        font-size: 0 !important;
+    }
+    .ad > a:nth-of-type(2n) {
+        margin-right: 0;
+    }
+    @media screen and (min-width: 50em) {
+        .ad > a {
+            width: calc(25% - 6px);
+        }
+        .ad > a:nth-of-type(2n) {
+            margin-right: 5px;
+        }
+        .ad > a:nth-of-type(4n) {
+            margin-right: 0;
+        }
+    }
+    .ad > figure {
+        margin: 0;
+    }
+    .ad > img {
+        border: none;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        background: #ccc;
+        transition: transform .2s ease-in-out;
+    }
+    /*end*/
+    /*custum in css*/
+    
+    .ad1 {
+        width: 1170px;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    .ad1 > a {
+        font-size: 16px;
+        overflow: hidden;
+        display: inline-block;
+        margin-bottom: 8px;
+        width: calc(50% - 4px);
+        margin-right: 8px;
+        text-decoration: none;
+        color: #838383;
+        text-align: center;
+    }
+    .ad1 {
+        font-size: 0 !important;
+    }
+    .ad1 > a:nth-of-type(2n) {
+        margin-right: 0;
+    }
+    @media screen and (min-width: 50em) {
+        .ad1 > a {
+            width: calc(25% - 6px);
+        }
+        .ad1 > a:nth-of-type(2n) {
+            margin-right: 5px;
+        }
+        .ad1 > a:nth-of-type(4n) {
+            margin-right: 0;
+        }
+    }
+    .ad1 > figure {
+        margin: 0;
+    }
+    .ad1 > img {
+        border: none;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        background: #ccc;
+        transition: transform .2s ease-in-out;
+    }
+    /*end*/
+    /*section of cac muc ke tiep in css*/
+    
+    .button-content ul li a {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    #buttons {
+        float: right;
+        position: relative;
+        left: -50%;
+        text-align: left;
+    }
+    #buttons ul {
+        list-style: none;
+        position: relative;
+        left: 50%;
+    }
+    #buttons li {
+        float: left;
+        position: relative;
+    }
+    #buttons a {
+        text-decoration: none;
+        margin: 0;
+        background-color: #808080;
+        float: left;
+        color: #fff;
+        padding: 2px 5px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    /*content */
+    
+    .aside {
+        float: left;
+        width: 50%;
+    }
+    .aside p {
+        font-size: 14px;
+        line-height: 17px;
+        word-wrap: break-word;
+    }
+    .figure {
+        float: right;
+    }
+    .figure img {
+        height: 100%;
+    }
+    /* pagination in css*/
+    
+    .pagination {
+        width: 1170px;
+        margin: 0 auto;
+        margin-right: -20%;
+    }
+    #pagination-flickr li {
+        border: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        list-style: none;
+        color: #fff;
+    }
+    #pagination-flickr .previous-off {
+        color: #fff;
+        display: block;
+        float: left;
+        font-weight: bold;
+        padding: 25px 13px;
+    }
+    #pagination-flickr .off {
+        color: #fff;
+        display: block;
+        float: left;
+        font-weight: bold;
+        padding: 21px 13px;
+    }
+    #pagination-flickr a {
+        color: #fff;
+        display: block;
+        float: left;
+        padding: 3px 8px;
+        text-decoration: none;
+        border-radius: 50%;
+        border: 1px solid #fff;
+    }
+    #pagination-flickr a:hover {
+        color: #000;
+        background-color: #fff;
+    }
+    /* cac muc ke tiep in css*/
+    
+    .tron {
+        width: 1170px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    .tron h2 {
+        font-size: 30px;
+        text-align: center;
+        color: #000;
+        padding-top: 90px;
+        text-transform: uppercase;
+    }
+    #down {
+        float: right;
+        position: relative;
+        left: -50%;
+        text-align: left;
+    }
+    #down ul {
+        list-style: none;
+        position: relative;
+        left: 50%;
+    }
+    #down li {
+        float: left;
+        position: relative;
+    }
+    #down a {
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0;
+        background-color: #fff;
+        float: left;
+        border: 2px outset #fff;
+        color: #fff;
+        padding: 2px 5px;
+        text-align: center;
+        white-space: nowrap;
+        color: #000;
+    }
+    #down a:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    /*css paginational*/
+    
+    .paginational {
+        padding-bottom: 90px;
+        padding-top: 30px;
+        max-width: 100%;
+    }
+    .paginational ul li a {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    #tene {
+        float: right;
+        position: relative;
+        left: -50%;
+        text-align: left;
+    }
+    #tene ul {
+        list-style: none;
+        position: relative;
+        left: 50%;
+    }
+    #tene li {
+        float: left;
+        position: relative;
+        padding: 0 10px;
+    }
+    #tene a {
+        text-decoration: none;
+        margin: 0;
+        background-color: #838383;
+        float: left;
+        color: #fff;
+        border-radius: 50%;
+        padding: 9px 15px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    #tene a:hover {
+        background-color: #000;
+    }
+    /*css paginational1*/
+    
+    .paginational1 {
+        max-width: 100%;
+        padding-top: 30px;
+    }
+    .paginational1 ul li a {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    #tene1 {
+        float: right;
+        position: relative;
+        left: -50%;
+        text-align: left;
+        top: 20px;
+    }
+    #tene1 ul {
+        list-style: none;
+        position: relative;
+        left: 50%;
+    }
+    #tene1 li {
+        float: left;
+        position: relative;
+        padding: 0 10px;
+    }
+    #tene1 a {
+        text-decoration: none;
+        margin: 0;
+        background-color: #838383;
+        float: left;
+        color: #fff;
+        border-radius: 50%;
+        padding: 9px 15px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    #tene1 a:hover {
+        background-color: #000;
+    }
+    /*css paginational2*/
+    
+    .paginational2 {
+        margin-left: -2%;
+    }
+    .paginational2 ul li a {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    #tene2 {
+        float: right;
+        position: relative;
+        text-align: left;
+    }
+    #tene2 ul {
+        list-style: none;
+        position: relative;
+        left: 50%;
+    }
+    #tene2 li {
+        float: left;
+        position: relative;
+        padding: 0 10px;
+    }
+    #tene2 a {
+        text-decoration: none;
+        margin: 0;
+        background-color: #fff;
+        float: left;
+        color: #000;
+        border-radius: 50%;
+        padding: 3px 8px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    #tene2 .firt {
+        padding-top: 4px;
+        color: #fff;
+    }
+    #tene2 .last {
+        padding-top: 4px;
+        color: #fff;
+    }
+    #tene2 a:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    /*col-three bang giacircle in css*/
+    
+    .pattern {
+        width: 1170px;
+        height: 670px;
+        margin: 0 auto;
+        background-color: #c6c6c6;
+    }
+    .pattern > h2 {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 90px;
+    }
+    .pattern .home-price .content-price h3 {
+        text-transform: uppercase;
+        font-size: 14px;
+        text-align: center;
+    }
+    .pattern .home-price .content-price p {
+        font-size: 14px;
+        text-align: center;
+        color: #ed1d24;
+    }
+    .home-price > div {
+        padding: 1em 1em 0;
+    }
+    @media screen and (min-width: 50em) {
+        .home-price {
+            overflow: hidden;
+        }
+        .home-price > div {
+            float: left;
+            width: 29.3333333%;
+        }
+    }
+    /*news in css*/
+    /****************news home********************/
+    
+    .news {
+        background-color: #8b8b8b;
+        width: 1170px;
+        height: 868px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    .news-home {
+        min-width: 100%;
+        color: #fff;
+    }
+    .news-home .news-left {
+        min-width: 50%;
+        float: left;
+        padding-top: 50px;
+    }
+    .news-home .news-left h3 {
+        text-transform: uppercase;
+        font-size: 13px;
+        padding: 0 40px;
+    }
+    .news-home .news-left p {
+        width: 545px;
+        font-size: 14px;
+        line-height: 18px;
+        word-spacing: 5px;
+        word-wrap: break-word;
+        padding: 0 40px;
+    }
+    section .news-home .news-right {
+        width: 50%;
+        float: right;
+    }
+    .news-home .news-left img {
+        padding-bottom: 30px;
+        padding-left: 40px;
+    }
+    .news-home .news-right .row-inlude {
+        width: 100%;
+        position: relative;
+        margin: 17px;
+    }
+    .news-home .news-right .img-right {
+        float: left;
+        width: 50%;
+    }
+    .news-home .news-right .row-inlude .img-right img {
+        position: absolute;
+        top: -476px;
+        left: 37px;
+    }
+    .news-home .news-right .txt-right {
+        float: right;
+        width: 50%;
+        position: absolute;
+        top: -466px;
+        left: 260px;
+    }
+    .news-home .news-right .txt-right {
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #fff;
+    }
+    /*img right 1*/
+    
+    .news-home .news-right .row-inlude .img-right1 img {
+        position: absolute;
+        top: -338px;
+        left: 37px;
+    }
+    .news-home .news-right .txt-right1 {
+        float: right;
+        width: 50%;
+        position: absolute;
+        top: -322px;
+        left: 260px;
+    }
+    .news-home .news-right .txt-right1 {
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #fff;
+    }
+    /*img right 2*/
+    
+    .news-home .news-right .row-inlude .img-right2 img {
+        position: absolute;
+        top: -199px;
+        left: 37px;
+    }
+    .news-home .news-right .txt-right2 {
+        float: right;
+        width: 50%;
+        position: absolute;
+        top: -188px;
+        left: 260px;
+    }
+    .news-home .news-right .txt-right2 {
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #fff;
+    }
+    /*########showroom*################*/
+    
+    #content-room {
+        background-color: #454545;
+        width: 1170px;
+        height: 966px;
+        margin: 0 auto;
+        padding-top: 1px;
+    }
+    #content-room h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        padding-top: 90px;
+        color: #fff;
+    }
+    .showroom > .b img {
+        margin-left: -3px !important;
+    }
+    .showroom > div {
+        padding: 1em 1em 0;
+    }
+    @media screen and (min-width: 50em) {
+        section .showroom {
+            overflow: hidden;
+        }
+        section .showroom > .a {
+            float: left;
+            width: 22%;
+        }
+        section .showroom > .b {
+            float: left;
+            width: 47%;
+        }
+        section .showroom > .c {
+            float: left;
+            width: 22%;
+        }
+    }
+    /*showroom2 in css*/
+    
+    .showroom2 {
+        width: 100%;
+    }
+    .showroom2 .tea-left {
+        float: left;
+        width: 50%
+    }
+    .showroom2 .tea-left img {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .showroom2 .tea-right {
+        float: right;
+        width: 50%;
+    }
+    .showroom2 .tea-right .tent-img {
+        width: 100%;
+    }
+    .showroom2 .tea-right .tent-img .tent-img-left {
+        float: left;
+        width: 50%
+    }
+    .showroom2 .tea-right .tent-img .tent-img-left img {
+        margin: 14px 15px;
+    }
+    .showroom2 .tea-right .tent-img .tent-img-right {
+        float: right;
+        width: 50%
+    }
+    .showroom2 .tea-right .tent-img .tent-img-right img {
+        margin: 14px 9px;
+    }
+    /*######css foooter#######*/
+    
+    #mapdiv {
+        width: 1170px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #mapdiv .box {
+        position: absolute;
+        z-index: 2;
+        top: -133px;
+        left: 70px;
+        width: 500px;
+        height: 400px;
+        background-color: #000;
+        color: #fff;
+        transform: rotate(51deg);
+        -webkit-transform: rotate(51deg);
+        -ms-transform: rotate(51deg);
+        -moz-transform: rotate(51deg);
+    }
+    #mapdiv .box > h2 {
+        position: absolute;
+        top: 217px;
+        left: 115px;
+        text-transform: uppercase;
+        transform: rotate(-51deg);
+        -webkit-transform: rotate(-51deg);
+        -ms-transform: rotate(-51deg);
+        -moz-transform: rotate(-51deg);
+    }
+    #mapdiv .box > img {
+        position: absolute;
+        top: 269px;
+        left: 65px;
+        text-transform: uppercase;
+        transform: rotate(-51deg);
+        -webkit-transform: rotate(-51deg);
+        -ms-transform: rotate(-51deg);
+        -moz-transform: rotate(-51deg);
+    }
+    #mapdiv .box > h3 {
+        position: absolute;
+        top: 169px;
+        left: 125px;
+        right: -24px;
+        font-size: 15px;
+        text-transform: uppercase;
+        transform: rotate(-51deg);
+        -webkit-transform: rotate(-51deg);
+        -ms-transform: rotate(-51deg);
+        -moz-transform: rotate(-51deg);
+    }
+    #mapdiv .box > p {
+        position: absolute;
+        top: 200px;
+        left: 180px;
+        font-size: 14px;
+        transform: rotate(-51deg);
+        -webkit-transform: rotate(-51deg);
+        -ms-transform: rotate(-51deg);
+        -moz-transform: rotate(-51deg);
+    }
+    #mapdiv .map {
+        position: absolute;
+        z-index: 1;
+    }
+    .footer-last {
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: #000;
+        color: #fff;
+    }
+    .footer-last .p {
+        text-align: left;
+    }
+    .footer-last .p2 {
+        text-align: right;
+        position: relative;
+        top: -15px;
+    }
+}

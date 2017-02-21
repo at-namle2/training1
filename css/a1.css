@@ -1,0 +1,1211 @@
+/*#############phan chung css#################*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Times New Roman", Times, serif;
+    }
+img {
+    font-size: 0;
+}
+
+
+.responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*#########header in css#########*/
+
+header #container {
+    min-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    }
+/*header css nav */
+
+.nav{
+  list-style:none; 
+  text-align:center;
+   margin-left: 10%;
+ }
+
+.nav ul{list-style:none; 
+  margin:0;
+   padding:0;
+ }
+
+.nav li{display:inline;}
+
+.nav a{
+  text-decoration:none;
+  font-size:12px; 
+  line-height:20px; 
+  display:inline-block; 
+  margin:0 7px;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  color: #fff;
+}
+
+.wrap{
+  background-color: #000;
+ margin:0 auto;
+ padding:10px; 
+}
+
+.nav img {float: left;}
+
+.nav li a {
+  margin:
+}
+
+.nav ul li a:hover {
+  border-bottom: 1px solid #fff;
+ 
+}
+
+/*#########section in css#########*/
+
+/*css gioi thieu*/
+/*section in css*/
+section .page-content {
+    width: 1354px; 
+    height: 1600px;
+    margin: 0 auto;
+    }
+
+section > h2 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  padding-top: 25px;
+}   
+
+section .img-center {
+    text-align: center;
+}
+
+/*introduce in css*/
+
+section #introduce{
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+
+}
+section #introduce ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+section #introduce li {
+    float:left;
+    position:relative;
+    background-color: #808080;
+}
+
+section #introduce li a {
+    text-decoration:none;
+    margin:0;
+    float:left;
+    border:2px outset #fff;
+    color:#fff;
+    padding:2px 5px;
+    text-align:center;
+    white-space:nowrap;
+    text-transform: uppercase;
+}
+
+
+section #introduce li:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #ccc;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -5px;
+    display: none;
+}
+
+section #introduce li:first-child:before {
+    display: block;
+
+}
+section #introduce ul li a:hover{
+     background-color: #000;
+     color: #fff;
+     cursor: crosshair;
+}
+
+/*end css introduce*/
+
+
+
+/*introduce in css*/
+
+section #introduce1 {
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+
+}
+section #introduce1 ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+section #introduce1 li {
+  float:left;
+  position:relative;
+  background-color: #808080;
+}
+
+section #introduce1 li a {
+    text-decoration:none;
+    margin:0;
+    float:left;
+    border:2px outset #fff;
+    color:#fff;
+    padding:2px 5px;
+    text-align:center;
+    white-space:nowrap;
+    text-transform: uppercase;
+}
+
+
+section #introduce1 li:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #ccc;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -5px;
+  display: none;
+}
+
+section #introduce1 li:first-child:before {
+  display: block;
+
+}
+section #introduce1 ul li a:hover{
+   background-color: #000;
+   color: #fff;
+   cursor: crosshair;
+}
+
+/*end css introduce*/
+
+
+/*#########section of cac muc ke tiep in css########*/
+
+
+section .button-content ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+} 
+
+section #buttons {
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+section #buttons ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+section #buttons li {
+    float:left;
+    position:relative;
+}
+
+section #buttons a{
+    text-decoration:none;
+    margin:0;
+    background-color: #808080;
+    float:left;
+    color:#fff;
+    padding:2px 5px;
+    text-align:center;
+    white-space:nowrap;
+}
+ 
+/*#####CSS gioit hieu#####*/
+section #content-aside {
+    width:1170px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+section .aside {
+    float: left;
+    width: 50%;
+}
+
+section .aside p {
+    font-size: 14px;
+    line-height: 17px;
+    word-wrap: break-word;
+}
+
+section .figure {
+    float: right;
+    }
+
+section .figure img{
+    height: 400px;  }
+
+/*project in du an*/
+section .project {
+  width:1170px;
+  margin: 0 auto;
+}
+section .project h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding-top: 90px;
+    text-transform: uppercase;
+}
+
+section .project {
+    background-color: #000;
+    height: 917px;
+}
+
+
+/*custum in css*/
+#if {
+  background-color: #000;
+  height: 717px;
+}
+
+.ad {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 60px;
+
+}
+
+.ad > a {
+  font-size: 16px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+  text-decoration:  none; 
+  color: #fff;
+}
+
+.ad {
+  font-size: 0 !important ;
+}
+
+.ad > a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  .ad > a {
+    width: calc(25% - 6px);
+  }
+  
+  .ad > a:nth-of-type(2n) {
+    margin-right: 5px;
+  }
+  
+  .ad > a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+.ad > figure {
+  margin: 0;
+}
+
+.ad > img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+/*end*/
+
+
+/*custum in css*/
+#if {
+  background-color: #000;
+  height: 717px;
+}
+
+.ad1 {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 60px;
+
+}
+
+.ad1 > a {
+  font-size: 16px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+  text-decoration:  none; 
+  color: #838383;
+  text-align: center; 
+}
+
+.ad1 {
+  font-size: 0 !important ;
+}
+
+.ad1 > a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  .ad1 > a {
+    width: calc(25% - 6px);
+  }
+  
+  .ad1 > a:nth-of-type(2n) {
+    margin-right: 5px;
+  }
+  
+  .ad1 > a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+.ad1 > figure {
+  margin: 0;
+}
+
+.ad1 > img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
+
+/*end*/
+/*section of cac muc ke tiep in css*/
+section .button-content ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+} 
+
+section #buttons{
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+section #buttons ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+section #buttons li {
+    float:left;
+    position:relative;
+}
+
+section #buttons a {
+    text-decoration:none;
+    margin:0;
+    background-color: #808080;
+    float:left;
+    color:#fff;
+    padding:2px 5px;
+    text-align:center;
+    white-space:nowrap;
+}
+
+/*content */
+
+section .aside {
+    float: left;
+    width: 50%;
+}
+
+section .aside p {
+    font-size: 14px;
+    line-height: 17px;
+    word-wrap: break-word;
+}
+
+section .figure {
+    float: right;
+    }
+
+section .figure img{
+    height: 440px;
+    }
+
+/*project in du an*/
+section .project {
+  width:1170px;
+  margin: 0 auto;
+}
+
+section .project h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding-top: 90px;
+}
+
+section .project {
+    background-color: #000;
+    height: 917px;
+}
+
+section #train-down{
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+
+section #train-down ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+section #train-down li {
+    float:left;
+    position:relative;
+}
+
+section #train-down a {
+    text-decoration:none;
+    margin:0;
+    background-color: #fff;
+    float:left;
+    border:2px outset #fff;
+    color:#fff;
+    padding:2px 5px;
+    text-align:center;
+    white-space:nowrap;
+    color: #000;
+}
+
+section #train-down a:hover{
+ background-color: #000;
+ color: #fff;
+}
+
+/*custum in css*/
+.col-group {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 34px 0;
+
+}
+.col-group > div {
+  padding: 1em;
+}
+.col-group p {
+  font-size: 12px;
+  color: #fff;
+}
+@media screen and (min-width: 44em) {
+  .col-group {
+    overflow: hidden;
+  }
+  .col-group > div {
+    float: left;
+    width: 50%;
+  }
+  .col-group > div:nth-child(odd) {
+    clear: left;
+  }
+}
+@media screen and (min-width: 64em) {
+  .col-group > div {
+    width: 22%;
+  }
+  .col-group > div:nth-child(odd) {
+    clear: none;
+  }
+}
+
+
+/* pagination in css*/
+.pagination {
+  width: 1170px;
+  margin:0 auto;
+  margin-right: -20%;
+}
+
+#pagination-flickr li{
+border:0; 
+margin:0; 
+padding:0;
+font-size:14px;
+list-style:none;
+color: #fff;
+}
+/* 
+#pagination-flickr a{
+border-radius: 50%;
+margin-right:2px;
+}*/
+
+#pagination-flickr .previous-off {
+    color: #fff;
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding: 25px 13px;
+}
+#pagination-flickr .off {
+    color: #fff;
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding: 21px 13px;
+}
+
+#pagination-flickr a {
+  color:#fff;
+  display:block;
+  float:left;
+  padding:3px 8px;
+  text-decoration:none;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+#pagination-flickr a:hover {
+  color:#000;
+  background-color: #fff;
+}
+
+
+/* cac muc ke tiep in css*/
+section .tron {
+  width:1170px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+section .tron h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+    padding-top: 90px;
+    text-transform: uppercase;
+}
+
+section #down {
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+
+section #down ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+section #down li {
+    float:left;
+    position:relative;
+}
+
+section #down a {
+    text-transform: uppercase;
+    text-decoration:none;
+    margin:0;
+    background-color: #fff;
+    float:left;
+    border:2px outset #fff;
+    color:#fff;
+    padding:2px 5px;
+    text-align:center;
+    white-space:nowrap;
+    color: #000;
+}
+
+section #down a:hover {
+ background-color: #000;
+ color: #fff;
+}
+
+/*custum in css*/
+.group {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 34px 0;
+}
+
+.group > div {
+  padding: 1em;
+}
+
+.group p {
+  font-size: 12px;
+  color: #b9adad;
+  text-align: center;
+}
+
+@media screen and (min-width: 44em) {
+  .group {
+    overflow: hidden;
+  }
+
+  .group > div {
+    float: left;
+    width: 50%;
+  }
+
+  .group > div:nth-child(odd) {
+    clear: left;
+  }
+
+}
+@media screen and (min-width: 64em) {
+  .group > div {
+    width: 22%;
+  }
+
+  .group > div:nth-child(odd) {
+    clear: none;
+  }
+
+}
+
+/*end cac muc*/
+
+
+/*css paginational*/
+section .paginational {
+    padding-bottom: 90px;
+    padding-top: 30px;
+  max-width: 100%;
+}
+
+section .paginational ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+} 
+
+section #tene {
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+section #tene ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+section #tene li {
+    float:left;
+    position:relative;
+    padding: 0 10px;
+}
+
+section #tene a {
+    text-decoration:none;
+    margin:0;
+    background-color: #838383;
+    float:left;
+    color:#fff;
+    border-radius: 50%;
+    padding:9px 15px;
+    text-align:center;
+    white-space:nowrap;
+}
+
+section #tene a:hover {
+    background-color: #000;
+}
+
+
+/*css paginational1*/
+section .paginational1 {
+    max-width: 100%;
+    padding-top: 30px;
+}
+
+section .paginational1 ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+} 
+
+section #tene1 {
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+    top: 20px;
+}
+section #tene1 ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+section #tene1 li {
+    float:left;
+    position:relative;
+    padding: 0 10px;
+}
+
+section #tene1 a {
+    text-decoration:none;
+    margin:0;
+    background-color: #838383;
+    float:left;
+    color:#fff;
+    border-radius: 50%;
+    padding:9px 15px;
+    text-align:center;
+    white-space:nowrap;
+}
+
+section #tene1 a:hover {
+    background-color: #000;
+}
+
+
+/*css paginational2*/
+section .paginational2 {
+    margin-left: -2%;
+}
+
+section .paginational2 ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+} 
+
+section #tene2 {
+    float:right;
+    position:relative;
+    text-align:left;
+}
+section #tene2 ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+section #tene2 li {
+    float:left;
+    position:relative;
+    padding: 0 10px;
+}
+
+section #tene2 a {
+    text-decoration:none;
+    margin:0;
+    background-color: #fff;
+    float:left;
+    color:#000;
+    border-radius: 50%;
+    padding:3px 8px;
+    text-align:center;
+    white-space:nowrap;
+}
+
+section #tene2 .firt {
+    padding-top: 4px;
+    color: #fff;
+}
+
+section #tene2 .last {
+    padding-top: 4px;
+    color: #fff;
+}
+
+section #tene2 a:hover {
+    background-color: #000;
+    color:#fff;
+}
+
+/*col-three bang giacircle in css*/
+
+section .pattern {
+  width:1170px;
+  height: 670px;
+  margin: 0 auto;
+  background-color: #c6c6c6;
+}
+
+section .pattern > h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+section .pattern .home-price .content-price h3 {
+ text-transform: uppercase;
+ font-size: 14px;
+ text-align: center;
+}
+
+section .pattern .home-price .content-price p { 
+  font-size: 14px;
+  text-align: center;
+  color: #ed1d24;
+}
+
+section .home-price > div {
+  padding: 1em 1em 0;
+}
+
+@media screen and (min-width: 50em) {
+  section .home-price {
+    overflow: hidden;
+  }
+ section .home-price > div {
+    float: left;
+    width: 29.3333333%;
+  }
+}
+
+/*news in css*/
+/****************news home********************/
+
+section .news {
+  background-color: #8b8b8b;
+  width: 1170px;
+  height: 868px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+section .news h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 90px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+section .news-home {
+  min-width: 100%;
+  color: #fff;
+}
+
+section .news-home .news-left {
+  min-width: 50%;
+  float: left;
+  padding-top: 50px;
+}  
+
+section .news-home .news-left h3  {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding:0 40px;
+}
+
+section .news-home .news-left p {
+    width: 545px;
+    font-size: 14px;
+    line-height: 18px;
+    word-spacing: 5px;
+    word-wrap: break-word;
+    padding: 0 40px;
+}
+
+section .news-home .news-right {
+  width:50%;
+  float: right;
+}
+
+section .news-home .news-left img {
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+section .news-home .news-right .row-inlude {
+  width: 100%;
+  position:relative;
+  margin: 17px;
+}
+
+section .news-home .news-right .img-right {
+  float: left;
+  width: 50%;
+  
+}
+
+section .news-home .news-right .row-inlude .img-right img {
+  position:absolute;
+  top: -476px;
+  left: 37px;
+}
+
+section .news-home .news-right .txt-right {
+  float: right;
+  width: 50%;
+  position:absolute;
+  top: -466px;
+  left: 260px;
+}
+
+section .news-home .news-right .txt-right  {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
+}
+
+/*img right 1*/
+
+section .news-home .news-right .row-inlude .img-right1 img {
+  position:absolute;
+  top: -338px;
+  left: 37px;
+}
+
+section .news-home .news-right .txt-right1 {
+  float: right;
+  width: 50%;
+  position:absolute;
+  top: -322px;
+  left: 260px;
+}
+
+section .news-home .news-right .txt-right1  {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
+}
+/*img right 2*/
+
+section .news-home .news-right .row-inlude .img-right2 img {
+  position:absolute;
+  top: -199px;
+  left: 37px;
+}
+
+section .news-home .news-right .txt-right2 {
+  float: right;
+  width: 50%;
+  position:absolute;
+  top: -188px;
+  left: 260px;
+}
+
+section .news-home .news-right .txt-right2  {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
+}
+
+
+
+/*########showroom*################*/
+#content-room {
+  background-color: #454545;
+  width: 1170px;
+  height: 966px;
+  margin: 0 auto;
+  padding-top: 1px;
+}
+#content-room h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-top: 90px;
+  color: #fff;
+}
+
+section .showroom > .b img {
+  margin-left: -3px !important;
+}
+section .showroom > div {
+  padding: 1em 1em 0;
+}
+
+@media screen and (min-width: 50em) {
+  section .showroom {
+    overflow: hidden;
+  }
+ section .showroom > .a {
+    float: left;
+    width: 22%;
+  }
+  section .showroom > .b {
+    float: left;
+    width: 47%;
+  }
+  section .showroom > .c {
+    float: left;
+    width: 22%;
+  }
+
+}
+
+/*showroom2 in css*/
+
+.showroom2 {
+  width:100%;
+}
+
+.showroom2 .tea-left {
+  float: left;
+  width: 50%
+}
+
+.showroom2 .tea-left img {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.showroom2 .tea-right {
+  float: right;
+  width: 50%;
+}
+
+.showroom2 .tea-right .tent-img {
+  width: 100%;
+}
+
+.showroom2 .tea-right .tent-img .tent-img-left {
+   float: left;
+    width: 50%
+}
+
+.showroom2 .tea-right .tent-img .tent-img-left img {
+    margin: 14px 15px;
+}
+
+.showroom2 .tea-right .tent-img .tent-img-right {
+    float: right;
+    width: 50%
+}
+
+.showroom2 .tea-right .tent-img .tent-img-right img {
+ 
+  margin: 14px 9px;
+}
+
+
+/*######css foooter#######*/
+footer #mapdiv {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer #mapdiv .box {
+    position: absolute;
+    z-index: 2;
+    top: -133px;
+    left: 70px;
+    width: 500px;
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    transform: rotate(51deg);
+    -webkit-transform: rotate(51deg);
+    -ms-transform: rotate(51deg);
+    -moz-transform: rotate(51deg);
+}
+
+footer #mapdiv .box > h2 {
+  position: absolute;
+  top:217px;
+  left: 115px;
+  text-transform: uppercase;
+  transform: rotate(-51deg);
+  -webkit-transform: rotate(-51deg);
+  -ms-transform: rotate(-51deg);
+  -moz-transform: rotate(-51deg);
+
+}
+
+footer #mapdiv .box > img {
+  position: absolute;
+  top: 269px;
+  left: 65px;
+  text-transform: uppercase;
+  transform: rotate(-51deg);
+  -webkit-transform: rotate(-51deg);
+  -ms-transform: rotate(-51deg);
+  -moz-transform: rotate(-51deg);
+
+}
+
+footer #mapdiv .box > h3 {
+  position: absolute;
+  top: 169px;
+  left: 125px;
+  right: -24px;
+  font-size: 15px;
+  text-transform: uppercase;
+  transform: rotate(-51deg);
+  -webkit-transform: rotate(-51deg);
+  -ms-transform: rotate(-51deg);
+  -moz-transform: rotate(-51deg);
+
+}
+
+footer #mapdiv .box > p {
+  position: absolute;
+  top:200px;
+  left: 180px;
+  font-size: 14px;
+  transform: rotate(-51deg);
+  -webkit-transform: rotate(-51deg);
+  -ms-transform: rotate(-51deg);
+  -moz-transform: rotate(-51deg);
+
+}
+
+footer #mapdiv .map {
+  position: absolute;
+  z-index: 1;
+}
+
+footer .footer-last {
+  max-width:  100%;
+  margin: 0 auto ;
+  background-color:#000;
+  color:#fff;
+}
+
+footer .footer-last .p {
+  text-align:left;  
+}
+
+footer .footer-last .p2 {
+  text-align: right;  
+  position: relative;
+  top:  -15px; 
+}
